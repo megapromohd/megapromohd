@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaPromoHD</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>MegaPromoHD</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#promocoes">Promoções</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container">
+                <h2>Ofertas Imperdíveis em Alta Definição</h2>
+                <p>Descubra as melhores promoções com qualidade HD</p>
+                <a href="#promocoes" class="cta-button">Ver Promoções</a>
+            </div>
+        </section>
+        <section id="promocoes" class="promo-section">
+            <div class="container">
+                <h2>Promoções</h2>
+                <div class="promo-grid">
+                    <div class="promo-card">
+                        <h3>Produto 1</h3>
+                        <p>Desconto de 50%</p>
+                        <a href="#" class="promo-link">Comprar Agora</a>
+                    </div>
+                    <div class="promo-card">
+                        <h3>Produto 2</h3>
+                        <p>Desconto de 30%</p>
+                        <a href="#" class="promo-link">Comprar Agora</a>
+                    </div>
+                    <div class="promo-card">
+                        <h3>Produto 3</h3>
+                        <p>Desconto de 20%</p>
+                        <a href="#" class="promo-link">Comprar Agora</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="contact-section">
+            <div class="container">
+                <h2>Contato</h2>
+                <form>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MegaPromoHD. Todos os direitos reservados.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
